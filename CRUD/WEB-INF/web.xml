@@ -1,0 +1,40 @@
+<web-app>  
+<servlet>  
+<servlet-name>Register</servlet-name>  
+<servlet-class>home</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+<servlet-name>Register</servlet-name>  
+<url-pattern>/home</url-pattern>  
+</servlet-mapping>  
+<servlet>  
+<servlet-name>submit</servlet-name>  
+<servlet-class>second</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+<servlet-name>submit</servlet-name>  
+<url-pattern>/second</url-pattern>  
+</servlet-mapping>  
+<servlet>  
+<servlet-name>up</servlet-name>  
+<servlet-class>update</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+<servlet-name>up</servlet-name>  
+<url-pattern>/update</url-pattern>  
+</servlet-mapping>  
+<servlet>  
+<servlet-name>del</servlet-name>  
+<servlet-class>delete</servlet-class>  
+</servlet>  
+<servlet-mapping>  
+<servlet-name>del</servlet-name>  
+<url-pattern>/delete</url-pattern>  
+</servlet-mapping>  
+
+  <welcome-file-list>  
+    <welcome-file>home.html</welcome-file>
+    <welcome-file>delete.html</welcome-file>
+    <welcome-file>update.html</welcome-file>  
+</welcome-file-list>  
+  </web-app>  
